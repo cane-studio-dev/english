@@ -1,0 +1,18 @@
+{
+  "name": "stylish-english-voice-tutor",
+  "version": "1.0.0",
+  "description": "Stylish English — AI voice tutor WebSocket relay server (browser mic <-> Gemini Live API)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "ws": "^8.18.0",
+    "dotenv": "^16.4.5"
+  }
+}
